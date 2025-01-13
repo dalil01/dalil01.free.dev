@@ -4,7 +4,7 @@ Welcome ! 👋
 
 Discover here a collection of components, tutorials, and free resources to help you build your applications faster and more efficiently. 🚀
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/dalil01.free.dev/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/dalil01/dalil01.free.dev/blob/main/LICENSE)
 
 ## Components
 

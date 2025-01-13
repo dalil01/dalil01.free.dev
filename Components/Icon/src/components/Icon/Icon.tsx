@@ -17,6 +17,6 @@ export default function Icon(props: IconProps): JSX.Element {
 	} = props;
 
 	return (
-		<i className={ name + (className ? className : '') } onClick={ onClick }></i>
+		<i className={ name + (className ? ' ' + className : '') } onClick={ onClick }></i>
 	);
 }

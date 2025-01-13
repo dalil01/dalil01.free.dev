@@ -27,7 +27,11 @@ npm install -D fantasticon@^2.0.0
 
 [Fantasticon NPM Package](https://www.npmjs.com/package/fantasticon)
 
-### 2. Add Required Configuration
+### 2. Compatibility Note
+
+`fantasticon` does not support projects using `type: module` in the `package.json`. Make sure your project is set up accordingly.
+
+### 3. Add Required Configuration
 
 Add this override to your `package.json` to prevent dependency conflicts:
 
@@ -39,7 +43,7 @@ Add this override to your `package.json` to prevent dependency conflicts:
 }
 ```
 
-### 3. Set Up Project Structure
+### 4. Set Up Project Structure
 
 Copy the following files and directories to your project:
 

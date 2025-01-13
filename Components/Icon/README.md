@@ -22,7 +22,7 @@ This component converts SVG icons into font files, enabling easy customization t
 ### 1. Install Dependencies
 
 ```bash
-npm install fantasticon@^2.0.0
+npm install -D fantasticon@^2.0.0
 ```
 
 [Fantasticon NPM Package](https://www.npmjs.com/package/fantasticon)

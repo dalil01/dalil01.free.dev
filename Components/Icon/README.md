@@ -43,7 +43,17 @@ Add this override to your `package.json` to prevent dependency conflicts:
 }
 ```
 
-### 4. Set Up Project Structure
+### 4. Add the Generate Script
+
+Add a custom script to your `package.json` for generating icons:
+
+```
+"scripts": {
+  "generate:icons": "npx fantasticon"
+}
+```
+
+### 5. Set Up Project Structure
 
 Copy the following files and directories to your project:
 

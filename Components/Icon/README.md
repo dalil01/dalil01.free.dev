@@ -33,7 +33,7 @@ npm install -D fantasticon@^2.0.0
 
 ### 3. Add Required Configuration
 
-Add this override to your `package.json` to prevent dependency conflicts:
+Add this override to your `package.json` to prevent potential dependency conflicts:
 
 ```
 "overrides": {
@@ -41,6 +41,12 @@ Add this override to your `package.json` to prevent dependency conflicts:
     "glob": "7.2.0"
   }
 }
+```
+
+After adding this, run the following command to reinstall your dependencies and apply the changes:
+
+```bash
+npm install
 ```
 
 ### 4. Add the Generate Script
